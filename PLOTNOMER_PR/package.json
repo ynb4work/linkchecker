@@ -1,0 +1,31 @@
+{
+  "name": "plotnomer",
+  "version": "1.0.0",
+  "description": "mern stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "server": "nodemon app.js",
+    "dev": "cross-env NODE_ENV=development concurrently \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Glievoy Sergey <glievoy.s@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "3.3.1",
+    "cors": "^2.8.5",
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "5.3.0",
+    "cross-env": "^7.0.2",
+    "nodemon": "2.0.4"
+  }
+}
